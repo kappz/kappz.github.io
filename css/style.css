@@ -1,0 +1,21 @@
+body {
+  background-color: #39b3c7;
+}
+
+header {
+  width: 100%;
+  height: 125px;
+  background-color: #006666;
+}
+
+.social-logo {
+  width: 64px;
+  height: 64px;
+}
+
+.navbar-name {
+  font-family: Georgia;
+  font-size: 14px;
+  color: white;
+  padding-left: 15px;
+}
