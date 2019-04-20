@@ -20,7 +20,7 @@ a {
 h1 {
   color: #ffffff;
   font-size: 150%;
-  font-style: bold;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -29,11 +29,27 @@ h2 {
   font-size: 90%;
 }
 
+h3 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
 hr {
-width: 220px;
-margin-top: 0px;
-border: 2px solid white;
-border-radius: 5px;
+  width: 120px;
+  border: 2px solid #284f6e;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+hr.hr-white {
+  width: 220px;
+  margin-top: 0;
+  border: 2px solid #ffffff;
 }
 
 p {
@@ -41,6 +57,7 @@ p {
   padding-right: 10px;
   color: #284f6e;
 }
+
 .navigation-bar {
   width: 100%;
   height: 80px;
@@ -88,60 +105,20 @@ p {
   height: 160px;
 }
 
-#about-me {
+.project-header-container {
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
-
-#about-me > h1 {
   font-weight: bold;
-  color: #284f6e;
-  margin-top: 25px;
 }
-
-#about-me > hr {
-  width: 120px;
-  margin-top: 0px;
-  border: 2px solid #284f6e;
-  border-radius: 5px;
-}
-
 #projects {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+  background-color: #7e8dff;
 }
 
-#projects > h1 {
-  font-weight: bold;
+#about-me,
+#projects,
+#contact {
   color: #284f6e;
-  margin-top: 25px;
-}
-
-#projects > hr {
-  width: 120px;
-  margin-top: 0px;
-  margin-bottom: 25px;
-  border: 2px solid #284f6e;
-  border-radius: 5px;
-}
-
-#projects > span {
-  margin-left: 10px;
-  margin-right: auto;
-  color: #284f6e;
-  font-size: 90%;
-  font-weight: bold;
-}
-#projects > a {
-  display: inline;
-}
-
-#projects img {
-  display: inline;
 }
 
 #logo {
