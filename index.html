@@ -12,14 +12,16 @@
     <header>
       <nav class="navigation-bar">
         <span class="navbar-name">Peter O'Donohue</span>
-        <a href="#about-me">About</a>
+        <a href="#about-link">About</a>
         <a href="#projects">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <div class="title">
-      <img class="profile-picture" src="images/profilepicture.png">
+      <img class="profile-picture" src="images/profilepicture.png" alt="profile picture">
       <h1>Peter O'Donohue</h1>
+      <div id="about-link">
+      </div>
       <hr class="hr-white">
       <h2>Software Engineer in Detroit MI</h2>
     </div>
@@ -29,6 +31,20 @@
       <p>An entry level software engineer who recently graduated from the
       University of Michigan-Dearborn with a bachelor of Computer Science.
       </p>
+      <span>Skills</span>
+      <div class="language-logo">
+        <img class="logo" src="images/c++.png" alt="c++">
+        <img class="logo" src="images/csharp.png" alt="c#">
+        <img class="logo" src="images/unity.png" alt="unity">
+        <img class="logo" src="images/html.png" alt="html">
+        <img class="logo" src="images/css.png" alt="css">
+      </div>
+      <span>Interests</span>
+      <ul>
+        <li>Object-Oriented Design</li>
+        <li>Algorithm Analysis and Design</li>
+        <li>Videogame Development</li>
+      </ul>
     </div>
     <div id="projects">
       <h3>Projects</h3>
@@ -37,7 +53,7 @@
         <div class="project-header-container">
           <span>Bubble Poppin</span>
           <a href="https://github.com/kappz/BubblePopping">
-            <img id="logo" src="images/github.png">
+            <img class="github-logo" src="images/github.png" alt="github">
           </a>
         </div>
         <p>A video game application for Android.</p>
@@ -46,18 +62,33 @@
         <div class="project-header-container">
           <span>Google Loon</span>
           <a href="https://github.com/kappz/Loon">
-            <img id="logo" src="images/github.png">
+            <img class="github-logo" src="images/github.png" alt="github">
           </a>
         </div>
+        <p>Engineered interconnected network of internet-providing aerial balloons using C++.</p>
       </div>
       <div class="project project-raising">
         <div class="project-header-container">
           <span>Raising Pay</span>
           <a href="https://github.com/kappz/RaisingPay">
-            <img id="logo" src="images/github.png">
+            <img class="github-logo" src="images/github.png" alt="github">
           </a>
         </div>
+        <p>Informs business owners when their company-wide raise requirements are satisfied.</p>
       </div>
+    </div>
+    <div id="contact">
+      <h3>Contact Me</h3>
+      <hr class="hr-white">
+      <div class="contact-me-links">
+        <a href="mailto:peter.odonohue89@gmail.com">
+          <img class="logo" src="images/email.png" alt="email">
+        <a href="https://www.linkedin.com/in/peter-o-donohue-29b1b0156/">
+          <img class="logo" src="images/linkedin.png" alt="email">
+        <a href="https://github.com/kappz">
+          <img class="logo" src="images/github.png" alt="email">
+      </div>
+      </a>
     </div>
   </body>
 </html>

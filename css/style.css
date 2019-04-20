@@ -25,6 +25,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 0px;
   color: #ffffff;
   font-size: 90%;
 }
@@ -56,6 +57,34 @@ p {
   padding-left: 10px;
   padding-right: 10px;
   color: #284f6e;
+}
+
+span {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.contact-me-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.github-logo {
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+}
+
+.language-logo {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
 }
 
 .navigation-bar {
@@ -105,25 +134,28 @@ p {
   height: 160px;
 }
 
+.project p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
 .project-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold;
 }
+#contact {
+  color: #ffffff;
+  background-color: #23db9b;
+}
+
 #projects {
-  background-color: #7e8dff;
+  background-color: #8fe353;
 }
 
 #about-me,
-#projects,
-#contact {
+#projects {
   color: #284f6e;
-}
-
-#logo {
-  width: 40px;
-  height: 40px;
 }
 
 @media only screen and (max-width: 600px) {
