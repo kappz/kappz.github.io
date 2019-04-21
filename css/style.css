@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px
+  font-size: 16px;
 }
 
 header {
@@ -64,9 +64,16 @@ span {
   padding-left: 10px;
 }
 
+.about-me-information {
+  max-width: 800px;
+  margin: auto;
+}
+
 .contact-me-links {
   display: flex;
   justify-content: space-around;
+  max-width: 800px;
+  margin: auto;
 }
 
 .github-logo {
@@ -89,7 +96,9 @@ span {
 
 .navigation-bar {
   width: 100%;
+  max-width: 800px;
   height: 80px;
+  margin: auto;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
@@ -119,15 +128,6 @@ span {
   margin-left: 10px;
   }
 
-.title {
-  background: #23db9b;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  padding-top: 70px;
-}
-
 .profile-picture {
   padding-top: 25px;
   width: 160px;
@@ -139,11 +139,27 @@ span {
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
+
+.project-information {
+  max-width: 800px;
+  margin: auto;
+}
+
 .project-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.title {
+  background: #23db9b;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
 #contact {
   color: #ffffff;
   background-color: #23db9b;
@@ -156,27 +172,4 @@ span {
 #about-me,
 #projects {
   color: #284f6e;
-}
-
-@media only screen and (max-width: 600px) {
-}
-
-
-@media only screen and (min-width: 600px) {
-
-}
-
-
-@media only screen and (min-width: 768px) {
-
-}
-
-
-@media only screen and (min-width: 992px) {
-
-}
-
-
-@media only screen and (min-width: 1200px) {
-
 }
